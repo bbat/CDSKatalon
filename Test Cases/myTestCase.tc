@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test keyword</name>
+   <name>myTestCase</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c9de18ae-de38-476c-ab2a-d2df70ae06dd</testCaseGuid>
    <variable>
-      <defaultValue>'Mario'</defaultValue>
+      <defaultValue>'toto@cdutil.com'</defaultValue>
       <description></description>
       <id>1fa4043f-9d44-4aeb-802c-128dd571abe0</id>
       <masked>false</masked>
-      <name>Recherche</name>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'pilipili'</defaultValue>
+      <description></description>
+      <id>d6482a2a-e6f1-429d-8564-246938ae295d</id>
+      <masked>false</masked>
+      <name>password</name>
    </variable>
 </TestCaseEntity>

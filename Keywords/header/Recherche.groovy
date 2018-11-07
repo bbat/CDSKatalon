@@ -1,4 +1,4 @@
-package cds.actions
+package header
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -42,12 +42,10 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 
-class Header_Recherche {
-	/**
-	 * Recherche sur le site cdiscount. En entrée la chaine à chercher
-	 */
+class Recherche {
+
 	@Keyword
-	def Cherche(String query) {
+	def Chercher(String query) {
 		KeywordUtil.logInfo("Recherche sur le site : " + query)
 		WebUI.setText(findTestObject('Cdiscount Front PC/Arche/Header/Rechercher/input_Rechercher'), query)
 		WebUI.click(findTestObject('Cdiscount Front PC/Arche/Header/Rechercher/button_Rechercher'))

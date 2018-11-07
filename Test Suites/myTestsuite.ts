@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>test1</name>
+   <name>myTestsuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-07T21:21:48</lastRun>
+   <lastRun>2018-11-07T22:18:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,7 +15,7 @@
       <guid>dbd723fe-9e42-4cae-83b5-69cfdf30d35a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test keyword</testCaseId>
+      <testCaseId>Test Cases/myTestCase</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>16cc08ef-a1a7-4a5a-8f78-b71c4bf2e8f4</id>
@@ -23,13 +23,19 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/test1/test1</testDataId>
+         <testDataId>Data Files/myTestCase</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>16cc08ef-a1a7-4a5a-8f78-b71c4bf2e8f4</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Recherche</value>
+         <value>email</value>
          <variableId>1fa4043f-9d44-4aeb-802c-128dd571abe0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>16cc08ef-a1a7-4a5a-8f78-b71c4bf2e8f4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>passwd</value>
+         <variableId>d6482a2a-e6f1-429d-8564-246938ae295d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

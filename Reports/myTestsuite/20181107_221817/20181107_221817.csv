@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+myTestsuite,Firefox 57.0,,2018-11-07 22:18:20,2018-11-07 22:18:33,"13,111s",PASSED
+,,,,,,
+Test Cases/myTestCase,Firefox 57.0,,2018-11-07 22:18:21,2018-11-07 22:18:33,"12,442s",PASSED
+Start listener action : BeforeTestCase,Firefox 57.0,,2018-11-07 22:18:21,2018-11-07 22:18:29,"8,280s",PASSED
+header.MonCompte.GoTo_CustomerZone,Firefox 57.0,,2018-11-07 22:18:29,2018-11-07 22:18:31,"2,250s",PASSED
+customerZone.Login.ConnecterCustomerZone,Firefox 57.0,,2018-11-07 22:18:31,2018-11-07 22:18:32,"0,839s",PASSED
+Start listener action : AfterTestCase,Firefox 57.0,,2018-11-07 22:18:32,2018-11-07 22:18:33,"0,815s",PASSED

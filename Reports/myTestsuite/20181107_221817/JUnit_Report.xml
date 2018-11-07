@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="myTestsuite" time="13" tests="1" failures="0" errors="0">
+   <testsuite name="myTestsuite" tests="1" failures="0" errors="0" time="13" timestamp="2018-11-07 22:18:20" hostname="bertrandbatoge - 192.168.0.18" id="Test Suites/myTestsuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/bba.geek/Katalon/MyCdiscount/Reports/myTestsuite/20181107_221817"/>
+         <property name="logFiles" value="/bba.geek/Katalon/MyCdiscount/Reports/myTestsuite/20181107_221817/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bertrandbatoge - 192.168.0.18"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="sessionId" value="f3762094-3cc5-f542-b4b6-6e45ac1d381a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/myTestCase" classname="Test Cases/myTestCase" status="PASSED">
+         <system-out><![CDATA[2018-11-07 22:18:21 - [TEST_CASE][PASSED] - Test Cases/myTestCase: Test Cases/myTestCase
+
+2018-11-07 22:18:21 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 22:18:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 22:18:21 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-11-07 22:18:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-07 22:18:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-07 22:18:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 22:18:29 - [MESSAGE][PASSED] - Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 22:18:29 - [TEST_STEP][PASSED] - header.MonCompte.GoTo_CustomerZone: header.MonCompte.GoTo_CustomerZone is PASSED
+
+2018-11-07 22:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount Front PC/Arche/Header/MonCompte/link_MonCompte' is clicked on
+
+2018-11-07 22:18:31 - [MESSAGE][PASSED] - header.MonCompte.GoTo_CustomerZone is PASSED
+
+2018-11-07 22:18:31 - [TEST_STEP][PASSED] - customerZone.Login.ConnecterCustomerZone: customerZone.Login.ConnecterCustomerZone is PASSED
+
+2018-11-07 22:18:32 - [MESSAGE][PASSED] - Text 'testSel@cdutil.com' is set on object 'Object Repository/Cdiscount CustomerZone/Authentification/Identifiez Vous/input__loginEmail'
+
+2018-11-07 22:18:32 - [MESSAGE][PASSED] - Text 'cdutil' is set on object 'Object Repository/Cdiscount CustomerZone/Authentification/Identifiez Vous/input__loginPassword'
+
+2018-11-07 22:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount CustomerZone/Authentification/Identifiez Vous/button_ValiderLogin' is clicked on
+
+2018-11-07 22:18:32 - [MESSAGE][PASSED] - customerZone.Login.ConnecterCustomerZone is PASSED
+
+2018-11-07 22:18:32 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-11-07 22:18:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 22:18:32 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-11-07 22:18:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-07 22:18:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-07 22:18:20 - [TEST_SUITE][PASSED] - myTestsuite: Test Cases/myTestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
