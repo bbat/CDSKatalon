@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test1" time="60" tests="3" failures="0" errors="0">
+   <testsuite name="test1" tests="3" failures="0" errors="0" time="60" timestamp="2018-11-07 20:58:00" hostname="bertrandbatoge - 192.168.0.18" id="Test Suites/test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/bba.geek/Katalon/MyCdiscount/Reports/test1/20181107_205757"/>
+         <property name="logFiles" value="/bba.geek/Katalon/MyCdiscount/Reports/test1/20181107_205757/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bertrandbatoge - 192.168.0.18"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="sessionId" value="4ff1f034-1d78-c744-9f27-1c96ff2717b2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/test keyword" classname="Test Cases/test keyword" status="PASSED">
+         <system-out><![CDATA[2018-11-07 20:58:00 - [TEST_CASE][PASSED] - Test Cases/test keyword: Test Cases/test keyword
+
+2018-11-07 20:58:00 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 20:58:00 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-11-07 20:58:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-07 20:58:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-07 20:58:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:07 - [MESSAGE][PASSED] - Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:07 - [TEST_STEP][PASSED] - cds.actions.Header_Recherche.Cherche: cds.actions.Header_Recherche.Cherche is PASSED
+
+2018-11-07 20:58:07 - [MESSAGE][PASSED] - Text 'iPhoneX' is set on object 'Object Repository/Cdiscount Front PC/Arche/Header/Rechercher/input_Rechercher'
+
+2018-11-07 20:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount Front PC/Arche/Header/Rechercher/button_Rechercher' is clicked on
+
+2018-11-07 20:58:13 - [MESSAGE][PASSED] - cds.actions.Header_Recherche.Cherche is PASSED
+
+2018-11-07 20:58:13 - [TEST_STEP][PASSED] - cds.actions.Header_MonCompte.Connecte: cds.actions.Header_MonCompte.Connecte is PASSED
+
+2018-11-07 20:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount Front PC/Arche/Header/MonCompte/link_MonCompte' is clicked on
+
+2018-11-07 20:58:17 - [MESSAGE][PASSED] - cds.actions.Header_MonCompte.Connecte is PASSED
+
+2018-11-07 20:58:17 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-11-07 20:58:17 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 20:58:17 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-11-07 20:58:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-07 20:58:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test keyword" classname="Test Cases/test keyword" status="PASSED">
+         <system-out><![CDATA[2018-11-07 20:58:18 - [TEST_CASE][PASSED] - Test Cases/test keyword: Test Cases/test keyword
+
+2018-11-07 20:58:18 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 20:58:18 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-11-07 20:58:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-07 20:58:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-07 20:58:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:24 - [MESSAGE][PASSED] - Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:24 - [TEST_STEP][PASSED] - cds.actions.Header_Recherche.Cherche: cds.actions.Header_Recherche.Cherche is PASSED
+
+2018-11-07 20:58:24 - [MESSAGE][PASSED] - Text 'Samsung Galaxy S8' is set on object 'Object Repository/Cdiscount Front PC/Arche/Header/Rechercher/input_Rechercher'
+
+2018-11-07 20:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount Front PC/Arche/Header/Rechercher/button_Rechercher' is clicked on
+
+2018-11-07 20:58:36 - [MESSAGE][PASSED] - cds.actions.Header_Recherche.Cherche is PASSED
+
+2018-11-07 20:58:36 - [TEST_STEP][PASSED] - cds.actions.Header_MonCompte.Connecte: cds.actions.Header_MonCompte.Connecte is PASSED
+
+2018-11-07 20:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount Front PC/Arche/Header/MonCompte/link_MonCompte' is clicked on
+
+2018-11-07 20:58:38 - [MESSAGE][PASSED] - cds.actions.Header_MonCompte.Connecte is PASSED
+
+2018-11-07 20:58:38 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-11-07 20:58:38 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 20:58:38 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-11-07 20:58:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-07 20:58:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/test keyword" classname="Test Cases/test keyword" status="PASSED">
+         <system-out><![CDATA[2018-11-07 20:58:39 - [TEST_CASE][PASSED] - Test Cases/test keyword: Test Cases/test keyword
+
+2018-11-07 20:58:39 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 20:58:39 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): null
+
+2018-11-07 20:58:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-07 20:58:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-07 20:58:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:45 - [MESSAGE][PASSED] - Navigate to 'http://www.cdiscount.com' successfully
+
+2018-11-07 20:58:45 - [TEST_STEP][PASSED] - cds.actions.Header_Recherche.Cherche: cds.actions.Header_Recherche.Cherche is PASSED
+
+2018-11-07 20:58:45 - [MESSAGE][PASSED] - Text 'Mario' is set on object 'Object Repository/Cdiscount Front PC/Arche/Header/Rechercher/input_Rechercher'
+
+2018-11-07 20:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount Front PC/Arche/Header/Rechercher/button_Rechercher' is clicked on
+
+2018-11-07 20:58:55 - [MESSAGE][PASSED] - cds.actions.Header_Recherche.Cherche is PASSED
+
+2018-11-07 20:58:55 - [TEST_STEP][PASSED] - cds.actions.Header_MonCompte.Connecte: cds.actions.Header_MonCompte.Connecte is PASSED
+
+2018-11-07 20:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Cdiscount Front PC/Arche/Header/MonCompte/link_MonCompte' is clicked on
+
+2018-11-07 20:58:59 - [MESSAGE][PASSED] - cds.actions.Header_MonCompte.Connecte is PASSED
+
+2018-11-07 20:58:59 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: Browser is closed
+
+2018-11-07 20:58:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-11-07 20:58:59 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): null
+
+2018-11-07 20:58:59 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-07 20:59:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-07 20:58:00 - [TEST_SUITE][PASSED] - test1: Test Cases/test keyword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

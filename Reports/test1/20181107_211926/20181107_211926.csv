@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test1,Chrome 70.0.3538.77,,2018-11-07 21:19:29,2018-11-07 21:22:59,"3m - 29,838s",ERROR
+,,,,,,
+Test Cases/test keyword,Chrome 70.0.3538.77,,2018-11-07 21:19:29,2018-11-07 21:20:18,"49,065s",ERROR
+Start listener action : BeforeTestCase,Chrome 70.0.3538.77,,2018-11-07 21:19:29,2018-11-07 21:19:35,"6,058s",PASSED
+cds.actions.Header_Recherche.Cherche,Chrome 70.0.3538.77,,2018-11-07 21:19:36,2018-11-07 21:20:15,"39,619s",PASSED
+cds.actions.Header_MonCompte.Connecte,Chrome 70.0.3538.77,,2018-11-07 21:20:15,2018-11-07 21:20:18,"2,900s",ERROR
+Start listener action : AfterTestCase,Chrome 70.0.3538.77,,2018-11-07 21:20:18,2018-11-07 21:20:18,"0,171s",PASSED
+,,,,,,
+Test Cases/test keyword,Chrome 70.0.3538.77,,2018-11-07 21:20:18,2018-11-07 21:20:38,"19,132s",ERROR
+Start listener action : BeforeTestCase,Chrome 70.0.3538.77,,2018-11-07 21:20:18,2018-11-07 21:20:23,"4,453s",PASSED
+cds.actions.Header_Recherche.Cherche,Chrome 70.0.3538.77,,2018-11-07 21:20:23,2018-11-07 21:20:34,"10,837s",PASSED
+cds.actions.Header_MonCompte.Connecte,Chrome 70.0.3538.77,,2018-11-07 21:20:34,2018-11-07 21:20:37,"3,648s",ERROR
+Start listener action : AfterTestCase,Chrome 70.0.3538.77,,2018-11-07 21:20:37,2018-11-07 21:20:38,"0,180s",PASSED
+,,,,,,
+Test Cases/test keyword,Chrome 70.0.3538.77,,2018-11-07 21:20:38,2018-11-07 21:22:59,"2m - 20,948s",ERROR
+Start listener action : BeforeTestCase,Chrome 70.0.3538.77,,2018-11-07 21:20:38,2018-11-07 21:20:41,"3,831s",PASSED
+cds.actions.Header_Recherche.Cherche,Chrome 70.0.3538.77,,2018-11-07 21:20:41,2018-11-07 21:22:44,"2m - 2,553s",PASSED
+cds.actions.Header_MonCompte.Connecte,Chrome 70.0.3538.77,,2018-11-07 21:22:44,2018-11-07 21:22:58,"14,177s",ERROR
+Start listener action : AfterTestCase,Chrome 70.0.3538.77,,2018-11-07 21:22:58,2018-11-07 21:22:59,"0,361s",PASSED

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9de18ae-de38-476c-ab2a-d2df70ae06dd</testCaseGuid>
+   <variable>
+      <defaultValue>'Mario'</defaultValue>
+      <description></description>
+      <id>1fa4043f-9d44-4aeb-802c-128dd571abe0</id>
+      <masked>false</masked>
+      <name>Recherche</name>
+   </variable>
+</TestCaseEntity>

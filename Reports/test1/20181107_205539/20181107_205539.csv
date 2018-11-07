@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test1,Firefox 57.0,,2018-11-07 20:55:42,2018-11-07 20:56:06,"24,468s",ERROR
+,,,,,,
+Test Cases/test keyword,Firefox 57.0,,2018-11-07 20:55:43,2018-11-07 20:55:54,"10,933s",ERROR
+Start listener action : BeforeTestCase,Firefox 57.0,,2018-11-07 20:55:43,2018-11-07 20:55:53,"9,805s",PASSED
+cds.actions.Header_Recherche.Cherche,Firefox 57.0,,2018-11-07 20:55:53,2018-11-07 20:55:53,"0,003s",PASSED
+Start listener action : AfterTestCase,Firefox 57.0,,2018-11-07 20:55:53,2018-11-07 20:55:54,"0,923s",PASSED
+,,,,,,
+Test Cases/test keyword,Firefox 57.0,,2018-11-07 20:55:54,2018-11-07 20:56:01,"6,920s",ERROR
+Start listener action : BeforeTestCase,Firefox 57.0,,2018-11-07 20:55:54,2018-11-07 20:56:00,"5,995s",PASSED
+cds.actions.Header_Recherche.Cherche,Firefox 57.0,,2018-11-07 20:56:00,2018-11-07 20:56:00,"0,001s",PASSED
+Start listener action : AfterTestCase,Firefox 57.0,,2018-11-07 20:56:00,2018-11-07 20:56:01,"0,913s",PASSED
+,,,,,,
+Test Cases/test keyword,Firefox 57.0,,2018-11-07 20:56:01,2018-11-07 20:56:06,"5,783s",ERROR
+Start listener action : BeforeTestCase,Firefox 57.0,,2018-11-07 20:56:01,2018-11-07 20:56:06,"4,960s",PASSED
+cds.actions.Header_Recherche.Cherche,Firefox 57.0,,2018-11-07 20:56:06,2018-11-07 20:56:06,"0,001s",PASSED
+Start listener action : AfterTestCase,Firefox 57.0,,2018-11-07 20:56:06,2018-11-07 20:56:06,"0,812s",PASSED
